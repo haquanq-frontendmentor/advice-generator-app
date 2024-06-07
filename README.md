@@ -14,6 +14,37 @@ Users should be able to:
 
 ### Solution
 
-:link: [`Solution Link`]() :link: [Live Site Link]()
+- Built with: `HTML` `CSS` `JS`
+- Mobile first workflow
+
+:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-and-js-62UU3AVSj2) :link: [Live Site Link](https://haquanq.github.io/fm-advice-generator-app/)
 
 ![](./.docs/design/desktop-design.jpg)
+
+## Working in `fm-advice-generator-app` repository
+
+### Packages being used
+
+- [`browser-sync`](https://github.com/BrowserSync/browser-sync)
+
+### Clone this project to your machine
+
+Make sure you have Git installed in your system, open new terminal, run the following command:
+
+```
+git clone https://github.com/haquanq/fm-advice-generator-app.git
+```
+
+Then, run `npm install` to install all dependencies.
+
+```
+npm install
+```
+
+### Development workflow
+
+In terminal, run `npm run dev` to start development server:
+
+```
+npm run dev
+```
