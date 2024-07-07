@@ -4,28 +4,24 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Challange
 
-- No access to design files :expressionless:
+- No access to design files, attempt pixel-perfect
 
 Users should be able to:
 
-- View the optimal layout for the app depending on their device's screen size :yum:
-- See hover states for all interactive elements on the page :yum:
-- Generate a new piece of advice by clicking the dice icon :yum:
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
 
 ### Solution
 
 - Built with: `HTML` `CSS` `JS`
-- Mobile first workflow
+- Mobile-first workflow
 
-:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-and-js-62UU3AVSj2) :link: [Live Site Link](https://haquanq.github.io/fm-advice-generator-app/)
+:link: [`Solution Link`](https://www.frontendmentor.io/solutions/only-html-and-css-and-js-62UU3AVSj2) :link: [`Live Site Link`](https://haquanq.github.io/fm-advice-generator-app/)
 
 ![](./.docs/design/desktop-design.jpg)
 
 ## Working in `fm-advice-generator-app` repository
-
-### Packages being used
-
-- [`browser-sync`](https://github.com/BrowserSync/browser-sync)
 
 ### Clone this project to your machine
 

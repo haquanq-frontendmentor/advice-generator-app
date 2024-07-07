@@ -21,14 +21,14 @@
     <title>Frontend Mentor | Advice generator app</title>
   </head>
   <body>
-    <main>
-      <div class="advice-wrapper">
-        <p class="advice-id">Advice #117</p>
-        <h1 class="advice-content">
+    <main class="main__container">
+      <article class="advice__wrapper">
+        <p class="advice__id">Advice #117</p>
+        <h1 class="advice__content">
           “It is easy to sit up and take notice, what’s difficult is getting up
           and taking action.”
         </h1>
-        <picture>
+        <picture class="advice__divider">
           <source
             srcset="./assets/images/pattern-divider-desktop.svg"
             media="(min-width: 512px)"
@@ -38,10 +38,11 @@
             alt="Divider pattern"
           />
         </picture>
-        <div class="advice-refresh">
-          <button aria-label="Refresh"></button>
-        </div>
-      </div>
+        <button class="advice__refresh__btn" aria-label="Refresh">
+          <span class="box-shadow"></span>
+          <img src="./assets/images/icon-dice.svg" alt="Dice icon" />
+        </button>
+      </article>
     </main>
     <script src="./main.js"></script>
   </body>
