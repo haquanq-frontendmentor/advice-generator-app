@@ -5,7 +5,7 @@
     "parcel": "^2.15.2"
   },
   "scripts": {
-    "dev": "parcel app/index.html -p 5000"
+    "dev": "parcel src/index.html -p 5000"
   },
   "author": "haquanq",
   "license": "MIT"
