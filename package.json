@@ -1,6 +1,7 @@
 {
   "name": "fm-advice-generator-app",
   "description": "Solution for frontendmentor.io (junior) challenge: advice-generator-app",
+  "type": "module",
   "devDependencies": {
     "parcel": "^2.15.2",
     "typescript": "^5.8.3"
