@@ -5,7 +5,7 @@
     "parcel": "^2.15.2"
   },
   "scripts": {
-    "dev": "browser-sync start -s app -f app --no-ui"
+    "dev": "parcel app/index.html -p 5000"
   },
   "author": "haquanq",
   "license": "MIT"
