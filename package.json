@@ -2,7 +2,6 @@
   "name": "fm-advice-generator-app",
   "description": "Solution for frontendmentor.io (junior) challenge: advice-generator-app",
   "devDependencies": {
-    "browser-sync": "^3.0.2",
     "parcel": "^2.15.2"
   },
   "scripts": {
