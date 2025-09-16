@@ -1,0 +1,12 @@
+@import "./base/fonts.css";
+@import "./base/variables.css";
+@import "./base/reset.css";
+
+@import "./components/advice.css";
+
+.main__container {
+    background-color: var(--color-dark-blue);
+    min-height: 100vh;
+    padding-block-start: clamp(7.5rem, 8.5vh + 9vw + 2rem, 13.9375rem);
+    padding-block-end: clamp(13.9375rem, 10vh + 12vw + 2rem, 15.9375rem);
+}

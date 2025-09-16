@@ -1,2 +1,7 @@
-[*.ts]
+root = true
+
+[*]
+max_line_length = 120
+
+[*.{css,js,ts}]
 indent_size = 4

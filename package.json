@@ -1,14 +1,25 @@
 {
-  "name": "fm-advice-generator-app",
+  "name": "advice-generator-app",
   "description": "Solution for frontendmentor.io (junior) challenge: advice-generator-app",
-  "type": "module",
-  "devDependencies": {
-    "parcel": "^2.15.2",
-    "typescript": "^5.8.3"
-  },
-  "scripts": {
-    "dev": "parcel src/index.html -p 5000"
-  },
   "author": "haquanq",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite serve --port 5000",
+    "lint:css": "stylelint ./src/styles/**/*.css --fix",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.7",
+    "postcss-custom-media": "^11.0.6",
+    "postcss-import": "^16.1.1",
+    "postcss-load-config": "^6.0.1",
+    "postcss-nested": "^7.0.2",
+    "postcss-preset-env": "^10.2.3",
+    "postcss-sort-media-queries": "^5.2.0",
+    "stylelint": "^16.21.1",
+    "stylelint-config-standard": "^38.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5"
+  }
 }

@@ -1,0 +1,96 @@
+.advice {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: min(100vw - 2rem, 33.75rem);
+    border-radius: 0.75rem;
+    padding-block: 2.625rem 0;
+    padding-inline: 1.5rem;
+    background-color: var(--color-dark-grayish-blue);
+    box-shadow: rgba(17, 17, 26, 10%) 0 8px 24px, rgba(17, 17, 26, 10%) 0 16px 56px, rgba(17, 17, 26, 10%) 0 24px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (--mobile) {
+        padding-block-start: 3.1875rem;
+    }
+
+    &__divider {
+        margin-block-end: 2rem;
+
+        img {
+            margin: 0 auto;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (--mobile) {
+            margin-block-end: 2.5rem;
+        }
+    }
+
+    &__id {
+        letter-spacing: 0.31em;
+        font-size: 0.6875rem;
+        text-transform: uppercase;
+        color: var(--color-neon-green);
+        margin-block-end: 1.625rem;
+
+        @media (--mobile) {
+            font-size: 0.8125rem;
+        }
+    }
+
+    &__content {
+        max-width: 24ch;
+        line-height: 2.0625rem;
+        font-size: 1.5rem;
+        color: var(--color-light-cyan);
+        margin-block-end: 1.75rem;
+
+        @media (--mobile) {
+            font-size: 1.75rem;
+            line-height: 2.375rem;
+            margin-block-end: 2.5rem;
+        }
+    }
+
+    &__refresh-btn {
+        position: relative;
+        border: none;
+        cursor: pointer;
+        padding: 1.25rem;
+        border-radius: 9999px;
+        background-color: var(--color-neon-green);
+        margin-block-end: -2rem;
+        transition: transform 150ms ease;
+
+        @media (hover: hover) {
+            transition: none;
+        }
+
+        &--shadow {
+            position: absolute;
+            border-radius: inherit;
+            inset: 0;
+            box-shadow: hsla(150, 100%, 66%, 100%) 0 0 32px 4px;
+            transition: opacity 200ms ease;
+            opacity: 0;
+
+            @media (hover: hover) {
+                transition: none;
+            }
+        }
+
+        @media (hover: hover) {
+            &--shadow:hover {
+                opacity: 1;
+            }
+        }
+
+        &:active {
+            transform: scale(0.9);
+        }
+    }
+}
