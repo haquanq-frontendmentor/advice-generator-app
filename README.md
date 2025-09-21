@@ -72,21 +72,21 @@ Accessibility
 
 Install the following:
 
-- Git (latest LTS recommended)
-- Node.js (latest LTS recommended)
+- Git (latest version)
+- Node.js (latest version)
 
 ### Setup
 
 ```
 git clone https://github.com/haquanq-frontendmentor/advice-generator-app.git
 cd advice-generator-app
-npm install
+pnpm install
 ```
 
 ### Start Development Server
 
 ```
-npm run dev
+pnpm dev
 ```
 
 ## :maple_leaf: Deployment
